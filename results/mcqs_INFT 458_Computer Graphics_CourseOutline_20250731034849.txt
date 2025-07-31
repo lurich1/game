@@ -1,0 +1,167 @@
+## MCQ
+Question: What kind of tests will be held during the semester?
+A) Announced tests
+B) Unannounced tests
+C) Online tests
+D) Open-book tests
+Correct Answer: B) Unannounced tests
+
+## MCQ
+Question: What is the grade for a student scoring within the range of 70 - 74 points?
+A) A
+B) B+
+C) B
+D) C
+Correct Answer: C) B
+
+## MCQ
+Question: What is the consequence of using another author's code or ideas without citation?
+A) It is encouraged
+B) It will be overlooked
+C) There will be a just punishment
+D) No consequences
+Correct Answer: C) There will be a just punishment
+
+## MCQ
+Question: What does the UENR honor code for Academic Integrity state?
+A) Plagiarism and cheating are encouraged
+B) Plagiarism and cheating are forbidden
+C) Plagiarism is allowed but cheating is forbidden
+D) Cheating is allowed but plagiarism is forbidden
+Correct Answer: B) Plagiarism and cheating are forbidden
+
+## MCQ
+Question: What is the final grade for total points below 44?
+A) E
+B) D
+C) F
+D) C
+Correct Answer: C) F
+
+## MCQ
+Question: What is expected to be observed by both the instructor and students?
+A) Punctuality
+B) Patience
+C) Perseverance
+D) Participation
+Correct Answer: A) Punctuality
+
+## MCQ
+Question: Who is the author of the book "Computer Graphics for Java Programmers, 2nd Edition"?
+A) Zhigang Xiang
+B) Donald Hearn
+C) J.D. Foley
+D) Leen Ammeraal and Kang Zhang
+Correct Answer: D) Leen Ammeraal and Kang Zhang
+
+## MCQ
+Question: What is the final grade for total points within the range of 60 - 64?
+A) A
+B) B
+C) C
+D) D
+Correct Answer: C) C
+
+## MCQ
+Question: What is the final grade for total points within the range of 80 - 100?
+A) A
+B) B
+C) C
+D) D
+Correct Answer: A) A
+
+## MCQ
+Question: What is the final grade for total points within the range of 50 - 54?
+A) A
+B) B
+C) D
+D) E
+Correct Answer: C) D
+
+## MCQ
+Question: What does LAB stand for in this context?
+A) Labeled Assignment Board
+B) Laboratory
+C) Lacking Academic Behavior
+D) Learners Academic Board
+Correct Answer: B) Laboratory
+
+## MCQ
+Question: What is the final grade for total points within the range of 45 - 49?
+A) A
+B) E
+C) C
+D) F
+Correct Answer: B) E
+
+## MCQ
+Question: What is the final grade for total points within the range of 55 - 59?
+A) A
+B) B
+C) D+
+D) E
+Correct Answer: C) D+
+
+## MCQ
+Question: Who is the author of the book "Computer Graphics: Principles & Practice In C, 2/E"?
+A) Zhigang Xiang
+B) Donald Hearn
+C) J.D. Foley
+D) Leen Ammeraal and Kang Zhang
+Correct Answer: C) J.D. Foley
+
+## MCQ
+Question: What is the final grade for total points within the range of 65 - 69?
+A) A
+B) C+
+C) C
+D) D
+Correct Answer: B) C+
+
+## MCQ
+Question: Who is the author of the book "Schaum's Outline of Computer Graphics"?
+A) Zhigang Xiang & Roy A. Plastock
+B) Donald Hearn & M. Pauline Baker
+C) J.D. Foley, A. Van Dam, S.K. Feiner & R.L. Phillips
+D) Leen Ammeraal and Kang Zhang
+Correct Answer: A) Zhigang Xiang & Roy A. Plastock
+
+## MCQ
+Question: What is the final grade for total points within the range of 75 - 79?
+A) A
+B) B+
+C) C
+D) D
+Correct Answer: B) B+
+
+## MCQ
+Question: What is the final grade for total points within the range of 75 - 79?
+A) A
+B) B+
+C) C
+D) D
+Correct Answer: B) B+
+
+## MCQ
+Question: Who is the author of the book "Computer Graphic"?
+A) Zhigang Xiang & Roy A. Plastock
+B) Donald Hearn & M. Pauline Baker
+C) J.D. Foley, A. Van Dam, S.K. Feiner & R.L. Phillips
+D) Leen Ammeraal and Kang Zhang
+Correct Answer: B) Donald Hearn & M. Pauline Baker
+
+## MCQ
+Question: What is the final grade for total points within the range of 70 - 74?
+A) A
+B) B+
+C) B
+D) C
+Correct Answer: C) B
+
+## MCQ
+Question: Who is the author of the book "Computer Graphic Principles and Practice"?
+A) Zhigang Xiang & Roy A. Plastock
+B) Donald Hearn & M. Pauline Baker
+C) J.D. Foley, A. Van Dam, S.K. Feiner & R.L. Phillips
+D) Leen Ammeraal and Kang Zhang
+Correct Answer: C) J.D. Foley, A. Van Dam, S.K. Feiner & R.L. Phillips
