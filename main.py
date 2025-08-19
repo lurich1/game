@@ -13,6 +13,7 @@ from pathlib import Path
 from dotenv import load_dotenv
 import shutil
 from datetime import datetime, timedelta
+import pptx  # For PowerPoint file processing
 
 # Load environment variables
 load_dotenv()
@@ -36,7 +37,7 @@ app.add_middleware(
 # Configuration
 UPLOAD_FOLDER = 'uploads'
 RESULTS_FOLDER = 'results'
-ALLOWED_EXTENSIONS = {'pdf', 'txt', 'docx'}
+ALLOWED_EXTENSIONS = {'pdf', 'txt', 'docx', 'ppt', 'pptx'}  # Added PowerPoint formats
 MAX_FILE_SIZE = 10 * 1024 * 1024  # 10MB
 
 # Create directories if they don't exist
@@ -66,6 +67,15 @@ def extract_text_from_file(file_path: str) -> Optional[str]:
             doc = docx.Document(file_path)
             text = ' '.join([para.text for para in doc.paragraphs])
             return text
+        elif ext in ['ppt', 'pptx']:
+            # Extract text from PowerPoint presentations
+            presentation = pptx.Presentation(file_path)
+            text = []
+            for slide in presentation.slides:
+                for shape in slide.shapes:
+                    if hasattr(shape, "text"):
+                        text.append(shape.text)
+            return ' '.join(text)
         elif ext == 'txt':
             with open(file_path, 'r', encoding='utf-8') as file:
                 return file.read()
@@ -90,7 +100,7 @@ def generate_mcqs_with_openrouter(input_text: str, num_questions: int) -> str:
     For each question, provide:
     - A clear question
     - Four answer options (labeled A, B, C, D)
-    - The correct answer clearly indicated
+    - The correct answer clearly indicated TWICE (repeat it)
     
     Format each question like this:
     ## MCQ
@@ -100,6 +110,7 @@ def generate_mcqs_with_openrouter(input_text: str, num_questions: int) -> str:
     C) [option C]
     D) [option D]
     Correct Answer: [correct option]
+    Correct Answer: [correct option]  # Repeat the correct answer
     
     Text to generate questions from:
     {input_text}
@@ -168,7 +179,7 @@ async def generate_mcqs(
 ):
     # Validate file
     if not allowed_file(file.filename):
-        raise HTTPException(status_code=400, detail="Invalid file format. Only PDF, TXT, and DOCX files are allowed.")
+        raise HTTPException(status_code=400, detail="Invalid file format. Only PDF, TXT, DOCX, PPT, and PPTX files are allowed.")
 
     # Check file size
     file_size = 0
